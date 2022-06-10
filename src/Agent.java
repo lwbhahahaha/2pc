@@ -81,8 +81,8 @@ public class Agent {
                 }
 
                 //simulate leader failure
-                if (simulateFailure)
-                    System.out.println(1/0);
+                // if (simulateFailure)
+                //     System.out.println(1/0);
                     
                 // log after success
                 agent.ReplicationLogWriteID.poll();
